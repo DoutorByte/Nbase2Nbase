@@ -16,11 +16,11 @@ def base2base(n, b1, b2):
 resultado = int2base(123456789, 16)
 print(resultado)  # saída: "75BCD15"
 
-# converter o número HEXA "75BCD15" para decimal (REQUER AS FUNÇÕES int2base E base2int)
+# converter o número HEXA "75BCD15" para decimal
 resultado = base2int("75BCD15", 16)
 print(resultado)  # saída: 123456789
 
 
-# converter o número HEXA "75BCD15" para BINÁRIO
+# converter o número HEXA "75BCD15" para BINÁRIO (REQUER AS FUNÇÕES int2base E base2int)
 resultado = base2base("75BCD15", 16, 2) 
 print(resultado) # saída: "111010110111100110100010101"
